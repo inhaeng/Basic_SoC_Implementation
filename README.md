@@ -15,6 +15,7 @@ SoC의 기본 구성을 이루는 기본적인 요소들을 학습하고 RTL- to
 ## 🔎참고자료(링크)
 https://gist.github.com/ihoneymon/652be052a0727ad59601
 
+[더 자세한 링크](https://www.heropy.dev/p/B74sNE)
 
 # MD 문법
 This is an H1

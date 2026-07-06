@@ -1,0 +1,22 @@
+xmsim(64): 22.03-s012: (c) Copyright 1995-2023 Cadence Design Systems, Inc.
+TOOL:	xmsim(64)	22.03-s012: Started on Jul 06, 2026 at 23:51:17 KST
+xmsim
+    -MESS
+    tb_shift_register_sipo
+
+Loading snapshot work_lib.tb_shift_register_sipo:module .................... Done
+xcelium> run
+time=0 | reset=0 | serial_in=0 | parallel_out=zzzzzzzz
+time=15000 | reset=1 | serial_in=0 | parallel_out=zzzzzzzz
+time=30000 | reset=1 | serial_in=1 | parallel_out=zzzzzzzz
+time=90000 | reset=1 | serial_in=0 | parallel_out=zzzzzzzz
+time=100000 | reset=1 | serial_in=1 | parallel_out=zzzzzzzz
+time=120000 | reset=1 | serial_in=0 | parallel_out=zzzzzzzz
+time=130000 | reset=1 | serial_in=1 | parallel_out=zzzzzzzz
+time=150000 | reset=1 | serial_in=0 | parallel_out=zzzzzzzz
+time=160000 | reset=1 | serial_in=1 | parallel_out=zzzzzzzz
+time=170000 | reset=1 | serial_in=0 | parallel_out=zzzzzzzz
+Simulation complete via $finish(1) at time 220 NS + 0
+./tb_shift_register_sipo.v:41 	#50 $finish;
+xcelium> exit
+TOOL:	xmsim(64)	22.03-s012: Exiting on Jul 06, 2026 at 23:51:17 KST  (total: 00:00:00)

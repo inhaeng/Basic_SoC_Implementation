@@ -1,0 +1,12 @@
+xmsim(64): 22.03-s012: (c) Copyright 1995-2023 Cadence Design Systems, Inc.
+TOOL:	xmsim(64)	22.03-s012: Started on Jul 07, 2026 at 20:06:00 KST
+xmsim
+    -MESS
+    tb_FSM
+
+Loading snapshot work_lib.tb_FSM:module .................... Done
+xcelium> run
+Simulation complete via $finish(1) at time 490 NS + 0
+./tb_FSM.v:44 	#200; $finish;
+xcelium> exit
+TOOL:	xmsim(64)	22.03-s012: Exiting on Jul 07, 2026 at 20:06:00 KST  (total: 00:00:00)

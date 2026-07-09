@@ -1,0 +1,30 @@
+xmelab(64): 22.03-s012: (c) Copyright 1995-2023 Cadence Design Systems, Inc.
+TOOL:	xmelab(64)	22.03-s012: Started on Jul 09, 2026 at 02:36:59 KST
+xmelab
+    -MESS
+    -access rwc
+    tb_usr_4bit
+
+	Elaborating the design hierarchy:
+		Caching library 'work_lib' ....... Done
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		work_lib.usr_4bit:module <0x1aec1719>
+			streams:   8, words:  2929
+		work_lib.tb_usr_4bit:module <0x044a545c>
+			streams:   9, words: 10676
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 2       2
+		Registers:               7       7
+		Scalar wires:            4       -
+		Vectored wires:          3       -
+		Always blocks:           2       2
+		Initial blocks:          2       2
+		Cont. assignments:       1       1
+		Pseudo assignments:      6       6
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: work_lib.tb_usr_4bit:module
+TOOL:	xmelab(64)	22.03-s012: Exiting on Jul 09, 2026 at 02:36:59 KST  (total: 00:00:00)

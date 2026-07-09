@@ -1,0 +1,26 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2024 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[04:53:49.163273] Configured Lic search path (22.01-s003): 5280@172.31.52.241
+
+Version: 22.17-s071_1, built Wed Sep 11 20:37:05 PDT 2024
+Options: my_syn.tcl 
+Date:    Wed Jul 08 04:53:49 2026
+Host:    kopo-seongnam (x86_64 w/Linux 3.10.0-1160.el7.x86_64) (20cores*80cpus*2physical cpus*Intel(R) Xeon(R) Gold 5218R CPU @ 2.10GHz 28160KB) (394624392KB)
+PID:     285587
+OS:      CentOS Linux release 7.9.2009 (Core)
+
+Checking out license: Genus_Synthesis
+[04:53:49.345395] Periodic Lic check successful
+[04:53:49.345435] Feature usage summary:
+[04:53:49.345435] Genus_Synthesis
+
+  Setting attribute of root '/': 'init_lib_search_path' = /home/hah011/Basic_SoC_Implementation/3_SYN/1_LIB
+  Setting attribute of root '/': 'init_hdl_search_path' = /home/hah011/Basic_SoC_Implementation/1_RTL/5_SEQ_LOGIC/3_FREQ_DIVIDER
+invalid command name "read_libs"
+    while executing
+"read_libs slow_vdd1v0_basicCells.lib"
+    (file "my_syn.tcl" line 3)
+Abnormal exit.
